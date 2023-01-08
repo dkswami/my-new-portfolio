@@ -10,7 +10,7 @@ function AboutCard() {
 					<p style={{ textAlign: "justify" }}>
 						Hi Everyone, I am <span className="purple">Deepak kumar swami </span>
 						from <span className="purple"> Rajasthan, India.</span>
-						<br />I am working as a software developer at Jarvis Technology and Strategy Consulting.
+						<br />I am working as a software developer at Jarvis Technology and Strategy Consulting located in New Delhi.
 						<br />
 						<br />
 						I am a passionate programmer and always ready to learn new things. I love to explore new technologies and leverage them to solve real-life problems.

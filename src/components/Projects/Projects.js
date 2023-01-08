@@ -40,7 +40,7 @@ function Projects() {
 							description="Crown Clothing is an E commerce application that includes cart functionality. It has email and google authentication. It also has stripe payment gateway implemented."
 							techUsed="React functional components with hooks, Context API, Redux, React-Router-Dom, Styled Components, Netlify and GraphQL."
 							ghLink="https://github.com/dkswami/crown-clothing-updated"
-							demoLink="https://lambent-taffy-3ca562.netlify.app/"
+							demoLink="https://crown-clothing-e-commerce.netlify.app/"
 						/>
 					</Col>
 
@@ -52,7 +52,7 @@ function Projects() {
 							description="Just wanted to learn 3d web animations so i developed this 3D Portfolio Website. Also discovered new learnings in scene, camera, lightening."
 							techUsed="HTML, CSS, Three.js, Vite, Netlify"
 							ghLink="https://github.com/dkswami/My-3D-portfolio"
-							demoLink="https://jocular-conkies-2a1a6a.netlify.app/"
+							demoLink="https://my-3d-portfolio.netlify.app/"
 						/>
 					</Col>
 
