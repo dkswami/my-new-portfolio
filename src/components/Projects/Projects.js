@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import myPortfolio from "../../Assets/Projects/3d-portfolio.png";
+import crown from "../../Assets/Projects/crown-clothing.png";
+import quiz from "../../Assets/Projects/quiz.png";
+import maze from "../../Assets/Projects/maze.png";
+import iotSystem from "../../Assets/Projects/iot-breakdown.png";
 
 function Projects() {
 	return (
@@ -23,7 +22,7 @@ function Projects() {
 				<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={chatify}
+							imgPath={quiz}
 							isBlog={false}
 							title="Quiz App"
 							description="This is a Quiz Application that i developed within a span of 5 days as a part of coding challenge. It has JWT authentication using HTTP only cookie. I haven't focusing on design of this app as i was more focused towards functionality. It also supports Server Side Rendering."
@@ -35,7 +34,7 @@ function Projects() {
 
 					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={bitsOfCode}
+							imgPath={crown}
 							isBlog={false}
 							title="Crown Clothing"
 							description="Crown Clothing is an E commerce application that includes cart functionality. It has email and google authentication. It also has stripe payment gateway implemented."
@@ -47,7 +46,7 @@ function Projects() {
 
 					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={editor}
+							imgPath={myPortfolio}
 							isBlog={false}
 							title="My 3D Portfolio"
 							description="Just wanted to learn 3d web animations so i developed this 3D Portfolio Website. Also discovered new learnings in scene, camera, lightening."
@@ -59,7 +58,7 @@ function Projects() {
 
 					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={leaf}
+							imgPath={maze}
 							isBlog={false}
 							title="Maze : A social media app"
 							description="A complete Social media app including CRUD operation and oAuth2.0 authentication. I developed this as a part of internship training."
@@ -70,7 +69,7 @@ function Projects() {
 
 					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={suicide}
+							imgPath={iotSystem}
 							isBlog={false}
 							title="Industrial Wireless Breakdown system"
 							description="Developed while working at G.K. Industrial solution. It includes one input device that gives respective department breakdown information and 5 actuator device that would alert respective department of this company."
