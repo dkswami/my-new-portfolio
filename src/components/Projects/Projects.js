@@ -73,7 +73,7 @@ function Projects() {
 							isBlog={false}
 							title="Industrial Wireless Breakdown system"
 							description="Developed while working at G.K. Industrial solution. It includes one input device that gives respective department breakdown information and 5 actuator device that would alert respective department of this company."
-							techUsed="C++ for programming esp32, firebase realtime database, Nextion HMI touch display."
+							techUsed="C++ for programming esp32, firebase realtime database, Nextion HMI touch display, MQTT Broker, Adafruit IO."
 						/>
 					</Col>
 				</Row>
