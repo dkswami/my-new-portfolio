@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import myPortfolio from "../../Assets/Projects/3d-portfolio.png";
-import crown from "../../Assets/Projects/crown-clothing.png";
-import quiz from "../../Assets/Projects/quiz.png";
-import maze from "../../Assets/Projects/maze.png";
-import iotSystem from "../../Assets/Projects/iot-breakdown.png";
+import myPortfolio from "../../Assets/Projects/3d-portfolio-new.png";
+import crown from "../../Assets/Projects/crown-clothing-new.png";
+import quiz from "../../Assets/Projects/quiz-new.png";
+import maze from "../../Assets/Projects/maze-new.png";
+import iotSystem from "../../Assets/Projects/iot-breakdown-new.png";
 
 function Projects() {
 	return (
