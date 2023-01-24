@@ -34,6 +34,18 @@ function Projects() {
 
 					<Col md={4} className="project-card">
 						<ProjectCard
+							imgPath={quiz}
+							isBlog={false}
+							title="Real time chat App"
+							description="I have made a realtime chat application using socket.io. This application has realtime one to one chat app and a room chat feature. It also has authentication as well."
+							techUsed="React js for frontend, Node js for backend api and MongoDB atlas as Database."
+							ghLink="https://github.com/dkswami/no-chat-app"
+							demoLink="https://chat.dkswami.tech/"
+						/>
+					</Col>
+
+					<Col md={4} className="project-card">
+						<ProjectCard
 							imgPath={crown}
 							isBlog={false}
 							title="Crown Clothing"
