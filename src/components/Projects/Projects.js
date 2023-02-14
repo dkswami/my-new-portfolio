@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import myPortfolio from "../../Assets/Projects/3d-portfolio-new.png";
 import crown from "../../Assets/Projects/crown-clothing-new.png";
 import quiz from "../../Assets/Projects/quiz-new.png";
+import chat from "../../Assets/Projects/chat_app.png";
 import maze from "../../Assets/Projects/maze-new.png";
 import iotSystem from "../../Assets/Projects/iot-breakdown-new.png";
 
@@ -34,7 +35,7 @@ function Projects() {
 
 					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={quiz}
+							imgPath={chat}
 							isBlog={false}
 							title="Real time chat App"
 							description="I have made a realtime chat application using socket.io. This application has realtime one to one chat app and a room chat feature. It also has authentication as well."
