@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/Deepak_kumar_Swami_SDE1.pdf";
+import pdf from "../../Assets/Deepak_kumar_Swami_SDE.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-const resumeLink ="https://drive.google.com/file/d/1N4AlLh9uX4ASQkbxh52VZooBAFbbycb7/preview";
+const resumeLink = "https://drive.google.com/file/d/1N4AlLh9uX4ASQkbxh52VZooBAFbbycb7/preview";
 
 function ResumeNew() {
 	return (
