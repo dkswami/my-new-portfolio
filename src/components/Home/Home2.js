@@ -24,12 +24,12 @@ function Home2() {
 							<br />
 							<br />I am fluent in classics like
 							<i>
-								<b className="purple"> C++, Javascript and Python. </b>
+								<b className="purple"> C++, Javascript, Typescript and Python. </b>
 							</i>
 							<br />
 							<br />
 							<i>
-								I use C++ for <b className="purple">Embedded systems,</b> Javascript for
+								I use C++ for <b className="purple">Embedded systems,</b> Javascript and Typescript for
 								<b className="purple"> Full stack web development </b>
 								and Python for <b className="purple">DSA, ML, AI, NPL and more. </b>
 							</i>
