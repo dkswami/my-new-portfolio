@@ -41,7 +41,7 @@ function Projects() {
 							description="I have made a realtime chat application using socket.io. This application has realtime one to one chat app and a room chat feature. It also has authentication as well."
 							techUsed="React js for frontend, Node js for backend api and MongoDB atlas as Database."
 							ghLink="https://github.com/dkswami/no-chat-app"
-							demoLink="https://chat.dkswami.tech/"
+							demoLink="https://chat.dkswami.in/"
 						/>
 					</Col>
 
